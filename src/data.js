@@ -22,7 +22,7 @@ export const data = [
     id: uuid(),
     name: "Pizza Motion",
     image: "./images/pizza.jpg",
-    site: "https://events-calendar-andurebel.netlify.app/",
+    site: "https://pizza-motion-andurebel.netlify.app/",
     code: "https://github.com/andurebel/events-calendar-react",
     description: "Events calendar in React",
   },
@@ -33,5 +33,15 @@ export const data = [
     site: "https://flipping-cards-andurebel.netlify.app",
     code: "https://github.com/andurebel/flipping-cards",
     description: "Events calendar in React",
+  },
+];
+
+export const myCard = [
+  {
+    firstName: "Alexandru",
+    lastName: "Trica",
+    profilePic: "./images/mainPic.jpg",
+    description: "I speak React",
+    yearsExperience: 2,
   },
 ];
