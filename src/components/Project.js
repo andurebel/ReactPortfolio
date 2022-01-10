@@ -1,21 +1,27 @@
 export const Project = ({ name, image, site, code, description }) => {
   return (
-    <article className="border border-gray-300 p-2 flex flex-col justify-center items-center">
-      <h1 className="text-xl font-bold">
-        <a href={site} target="_blank" rel="noreferrer">
-          {name}
-        </a>
-      </h1>
+    <article className="xl:container p-2 flex flex-col justify-center items-center">
+      <h1 className="text-xl font-bold my-4">{name}</h1>
       <img src={image} alt="project" />
-      <p>{description}</p>
-      <a
-        target="_blank"
-        rel="noreferrer"
-        href={code}
-        className="bg-gray-300 px-4 py-2 rounded mt-4"
-      >
-        See code
-      </a>
+      <p className="text-gray-400 text-xl my-4">{description}</p>
+      <div className="flex  my-6 p-4 justify-around items-center w-full ">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href={code}
+          className="bg-gray-200 rounded p-4 font-bold shadow-xl  "
+        >
+          See code
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href={site}
+          className="bg-gray-200 rounded p-4 font-bold shadow-xl "
+        >
+          Live demo
+        </a>
+      </div>
     </article>
   );
 };
