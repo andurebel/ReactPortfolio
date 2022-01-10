@@ -16,8 +16,8 @@ export const Home = () => {
       <section className="flex flex-col items-center justify-center p-6">
         <h1 className="my-20 text-2xl">Why me ?</h1>
         <p className="text-md">
-          I have a <em>passion</em> for learning and getting{" "}
-          <strong>stuff done</strong>.
+          I have a <em>passion</em> for learning and getting
+          <strong className="animate-pulse"> stuff done</strong>.
         </p>
       </section>
     </>
