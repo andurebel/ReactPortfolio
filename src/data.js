@@ -4,7 +4,7 @@ export const data = [
   {
     id: uuid(),
     name: "Events Calendar",
-    image: "./images/gallery.jpg",
+    image: "./images/events.jpg",
     site: "https://events-calendar-andurebel.netlify.app/",
     code: "https://github.com/andurebel/events-calendar-react",
     description: "Events calendar in React",
