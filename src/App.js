@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { Home, Work, Contact, NotFound } from "./pages";
-import { Navbar, Footer } from "./components";
+import { Navbar } from "./components";
 
 function App() {
   return (
@@ -12,7 +12,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer />
     </>
   );
 }

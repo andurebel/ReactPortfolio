@@ -14,7 +14,7 @@ export const Home = () => {
       </div>
 
       <section className="flex flex-col items-center justify-center p-6">
-        <h1 className="my-20 text-2xl">Who am I ?</h1>
+        <h1 className="my-20 text-2xl">Why me ?</h1>
         <p className="text-md">
           I have a <em>passion</em> for learning and getting{" "}
           <strong>stuff done</strong>.

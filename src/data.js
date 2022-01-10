@@ -1,11 +1,10 @@
 import { v4 as uuid } from "uuid";
-import events from "./images/events.jpg";
 
 export const data = [
   {
     id: uuid(),
     name: "Events Calendar",
-    image: { events },
+    image: "./images/gallery.jpg",
     site: "https://events-calendar-andurebel.netlify.app/",
     code: "https://github.com/andurebel/events-calendar-react",
     description: "Events calendar in React",
