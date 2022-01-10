@@ -1,6 +1,9 @@
-export const Project = ({ name, image, site, code, description }) => {
+export const Project = ({ name, image, site, code, description, id }) => {
   return (
-    <article className="xl:container p-2 flex flex-col justify-center items-center">
+    <article
+      className="xl:container p-2 flex flex-col justify-center items-center "
+      key={id}
+    >
       <h1 className="text-xl font-bold my-4">{name}</h1>
       <img src={image} alt="project" />
       <p className="text-gray-400 text-xl my-4">{description}</p>

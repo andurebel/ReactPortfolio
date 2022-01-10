@@ -36,13 +36,3 @@ export const data = [
     description: "Guessing game card game",
   },
 ];
-
-export const myCard = [
-  {
-    firstName: "Alexandru",
-    lastName: "Trica",
-    profilePic: "./images/mainPic.jpg",
-    description: "I speak React",
-    yearsExperience: 2,
-  },
-];

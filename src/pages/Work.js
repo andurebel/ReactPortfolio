@@ -9,12 +9,13 @@ export const Work = () => {
       </h1>
       <section className="xl:container xl:mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 ">
         {data.map((project) => {
-          const { name, image, site, code, description } = project;
+          const { name, image, site, code, description, id } = project;
           return (
             <>
-              <div className="m-6 shadow hover:shadow-xl p-6 border rounded-xl border-gray-100 max-w-xl">
+              <div className="m-6 shadow hover:shadow-xl p-6 border rounded-xl border-gray-100 max-w-xl ">
                 <Project
-                  key={project.id}
+                  key={id}
+                  id={id}
                   name={name}
                   image={image}
                   site={site}
