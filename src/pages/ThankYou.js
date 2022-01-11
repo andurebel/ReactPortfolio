@@ -16,7 +16,7 @@ export const ThankYou = () => {
                 !
               </p>
             </h1>
-            <h1 className="text-xl py-8">Got below message:</h1>
+            <h1 className="text-xl py-8">Message received:</h1>
             <p className="bg-gray-200 rounded shadow-xl p-6">{message}</p>
           </div>
         ) : (
