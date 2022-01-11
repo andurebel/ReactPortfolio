@@ -35,3 +35,8 @@ export const data = [
     description: "Guessing game card game",
   },
 ];
+
+export const aboutMe = {
+  name: "Alexandru Trica",
+  title: "Web Developer",
+};
