@@ -34,6 +34,14 @@ export const data = [
     code: "https://github.com/andurebel/flipping-cards",
     description: "Guessing game card game",
   },
+  {
+    id: uuid(),
+    name: "Expense tracker",
+    image: "./images/expense.jpg",
+    site: "https://expensetracker-andurebel.netlify.app/",
+    code: "https://github.com/andurebel/Expense_tracker",
+    description: "Vanilla Js expense tracker",
+  },
 ];
 
 export const aboutMe = {
