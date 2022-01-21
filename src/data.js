@@ -3,6 +3,15 @@ import { v4 as uuid } from "uuid";
 export const data = [
   {
     id: uuid(),
+    name: "Redux CRUD App",
+    image: "./images/users.jpg",
+    site: "https://crud-redux-andurebel.netlify.app/",
+    code: "https://github.com/andurebel/ReduxPracticeApp",
+    description: "CRUD App using Redux Toolkit",
+    tag: ["react", "redux"],
+  },
+  {
+    id: uuid(),
     name: "Events Calendar",
     image: "./images/events.jpg",
     site: "https://events-calendar-andurebel.netlify.app/",
